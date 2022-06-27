@@ -1,4 +1,6 @@
-﻿namespace OrderProcessingSystemDotnet.Models.Tables
+﻿
+
+namespace OrderProcessingSystemDotnet.Models.Tables
 {
     public class Customer
     {

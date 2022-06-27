@@ -1,5 +1,6 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using OrderProcessingSystemDotnet.Data;
+using OrderProcessingSystemDotnet.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
