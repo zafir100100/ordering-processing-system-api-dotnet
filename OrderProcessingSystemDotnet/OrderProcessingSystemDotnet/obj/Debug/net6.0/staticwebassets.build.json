@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dH9Gscxw8bAgWbbTtsxoPq2f7Mq02GX/l87GrUFlyp8=",
+  "Source": "OrderProcessingSystemDotnet",
+  "BasePath": "_content/OrderProcessingSystemDotnet",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
