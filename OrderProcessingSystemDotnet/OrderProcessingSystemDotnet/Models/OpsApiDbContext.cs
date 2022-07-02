@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using OrderProcessingSystemDotnet.Models.Tables;
 
-namespace OrderProcessingSystemDotnet.Data
+namespace OrderProcessingSystemDotnet.Models
 {
     public class OpsApiDbContext : DbContext
     {

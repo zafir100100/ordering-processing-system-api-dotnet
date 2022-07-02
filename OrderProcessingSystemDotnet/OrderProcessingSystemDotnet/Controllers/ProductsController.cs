@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using OrderProcessingSystemDotnet.Data;
+using OrderProcessingSystemDotnet.Models;
 using OrderProcessingSystemDotnet.Models.Tables;
 
 namespace OrderProcessingSystemDotnet.Controllers

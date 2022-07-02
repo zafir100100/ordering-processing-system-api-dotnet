@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using OrderProcessingSystemDotnet.Data;
+using OrderProcessingSystemDotnet.Models;
 using OrderProcessingSystemDotnet.Controllers;
+using OrderProcessingSystemDotnet.Interfaces;
+using OrderProcessingSystemDotnet.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<OpsApiDbContext>(options => options.UseInMemoryDatabase("OpsDb"));
+builder.Services.AddTransient<ICustomerService, CustomerRepository>();
 
 var app = builder.Build();
 
