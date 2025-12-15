@@ -4,3 +4,6 @@ OrderProcessingSystemDotnet/.vs/OrderProcessingSystemDotnet/v17/.suo
 *.sentinel
 *.suo
 OrderProcessingSystemDotnet\.vs
+/OrderProcessingSystemDotnet/OrderProcessingSystemDotnet/obj
+/OrderProcessingSystemDotnet/OrderProcessingSystemDotnet/obj/Debug
+/OrderProcessingSystemDotnet/OrderProcessingSystemDotnet/obj/Debug/net6.0
